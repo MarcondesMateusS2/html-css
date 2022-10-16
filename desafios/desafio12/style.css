@@ -4,6 +4,10 @@
     src: url("fonte/passionone.otf");
 }
 
+@font-face {
+    font-family:"Sriracha";
+    src: url(fonte/sriracha);
+}
 
 body{
     margin: 0%;
@@ -12,26 +16,73 @@ body{
 
 /*--------------------------------SITE---------------------------------------------------------*/
 
+main{
+    background: black;
+    padding-top: 50px;
+    width: 100%;
+    height: 250px;
+}
+
 h1{
     font-family: "passionone", sans-serif;
     font-weight: bold;
     background-color: black;
     color: white;
-    font-size: 5em;
+    font-size: 8em;
     text-align: center;
     margin: 0px;
-    padding-top: 50px;
-    width: 100%;
-    height: 180px;
+   
 
 }
+
 a{
     color: white;
     text-decoration: underline;
 }
-.autor{
+.autor {
+    text-decoration: underline;
     font-size: 19px;
     color: white;
     padding-bottom: -18px;
+}
+
+article > p  {
+    font-weight: 100px;
+    font-family: "sriracha", sans-serif;
+    padding-left: 20px;
+    font-size: 3em;
+}
+
+.flores{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    background-attachment: fixed;
+    background-image: url(imagens/background001.jpg);
+    height:  800px;
+}
+
+div> p {
+    background-color: rgba(0, 0, 0, 0.534);
+    width: 350px;
+    height: 300;
+    font-family: "sriracha", sans-serif;
+    padding-left: 20px;
+    font-size: 2em;
+
+}
+
+div{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.livro{
+    
+    background-color: black;
+    color: white;
+    background-image: url(imagens/background002.jpg);
+    height:  800px;
+    background-attachment: fixed;
+    
+
 }
 
