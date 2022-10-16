@@ -1,0 +1,37 @@
+@import "UTF-8";
+@font-face {
+    font-family:"lobster";
+    src: url("fonte/lobster.ttf");
+}
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*--------------------------------SITE---------------------------------------------------------*/
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    margin: 0px;
+    padding top:20px;
+    width: 100%;
+    height: 300px;
+
+}
+a{
+    color: white;
+    text-decoration: underline;
+}
+.autor{
+    font-size: 18px;
+    color: white;
+    padding-bottom: 20px;
+}
+
