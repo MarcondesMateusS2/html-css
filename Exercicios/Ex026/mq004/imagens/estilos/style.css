@@ -16,12 +16,12 @@ body, html {
     height: 100vh;
 }
 
-body{
-    background-color: black url(../back-phone.jpg) no-repeat; 
+body{ 
+   background-image: url(../back-phone.jpg) ;
 }
 
 main {
-    background-color: rgba(255, 255, 255, 0.705);
+    background-color: rgba(255, 255, 255, 0.705) ;
     width: 90vw;
     margin: auto;
     border-radius: 10px;
