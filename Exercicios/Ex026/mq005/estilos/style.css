@@ -10,16 +10,17 @@
 
 
 body, html {
-    background-color: blue;
+    background-color: rgb(87, 140, 219);
 }
 
 header {
-    background-color: lightblue;
+    background-color: rgba(19, 48, 209, 0.575);
 }
 
 header > h1{
     padding: 10px;
     text-align: center;
+    color: white;
 }
 
 menu {
@@ -34,13 +35,27 @@ menu > ul > li > a{
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: rgba(2, 2, 179, 0.562);
+    background-color: rgba(6, 6, 245, 0.747);
     color: white;
     text-align: center;
     border-top: 1px solid black;
 
 }
 
+i#burguer{
+    background-color: rgba(21, 8, 207, 0.678);
+    width: 100vw;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover{
+    background-color: white;
+    color: black;
+
+}
 menu > ul >li > a:hover {
     background-color: rgba(0, 0, 255, 0.575);
 }
